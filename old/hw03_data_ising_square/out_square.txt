@@ -1,0 +1,6 @@
+generate data for L =   8
+generating data for L =  8 took   38.0s
+generate data for L =  16
+generating data for L = 16 took   41.5s
+generate data for L =  32
+generating data for L = 32 took   56.2s
