@@ -57,11 +57,11 @@ def metropolis_loop(system, T, N_sweeps, N_eq, N_flips):
 if __name__ == "__main__":
     """ Scan through some temperatures """
     # Set parameters here
-    L = 4  # Linear system size
+    L = 10  # Linear system size
     N_sweeps = 5000  # Number of steps for the measurements
     N_eq = 1000  # Number of equilibration steps before the measurements start
     N_flips = 10  # Number of steps between measurements
-    N_bins = 10  # Number of bins use for the error analysis
+    N_bins = 100  # Number of bins use for the error analysis
 
     T_range = np.arange(1.5, 3.1, 0.1)
 
