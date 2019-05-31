@@ -1,4 +1,6 @@
 .ipynb_checkpoints
+__pycache__
+
+sol_tutorials
 Scipy_Lecture_Notes.pdf
 Walter_Intro_to_Monte_Carlo_Methods.pdf
-sol_tutorials
