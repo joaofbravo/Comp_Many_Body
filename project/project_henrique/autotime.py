@@ -5,14 +5,13 @@ from IPython.core.magics.execution import _format_time as format_delta
 
 
 class LineWatcher(object):
-
     """Class that implements a basic timer.
 
     Notes
     -----
     * Register the `start` and `stop` methods with the IPython events API.
     """
-
+    
     def __init__(self):
         self.start_time = 0.0
 
